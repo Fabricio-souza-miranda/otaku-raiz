@@ -27,7 +27,8 @@ const swiper = new Swiper('.swiper', {
 const swiper2 = new Swiper('.swiper2', {
   // Optional parameters
   spaceBetween: 10,
-  slidesPerView: 2,
+  slidesPerGroup: 1,
+  slidesPerView: 1.2,
   loop: false,
   freeMode: true,
   loopAdditionalSlides: 5,

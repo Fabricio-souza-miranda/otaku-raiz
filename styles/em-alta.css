@@ -74,6 +74,9 @@
 }
 
 @media (max-width: 800px){
+  .swiper2{
+    width: 100%;
+  }
   .swiper2 .swiper-button-prev::after,
   .swiper2 .swiper-button-next::after{
   font-size: 4vw;
