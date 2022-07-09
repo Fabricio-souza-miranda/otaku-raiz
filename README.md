@@ -2,7 +2,7 @@
 # What's up, eu sou Fabrício! 👋🏻
 
 
-![Logo](https://i.im.ge/2022/07/09/upiF2p.png)
+![Logo](readmeIMG/otaku_logo.png)
 
 
 # OTAKU RAIZ
@@ -13,5 +13,5 @@
 [Confira Aqui!](https://otaku-raiz.vercel.app)
 ## Demonstração
 
-[![upi35h.gif](https://i.im.ge/2022/07/09/upi35h.gif)](https://im.ge/i/upi35h)
+![GiF](readmeIMG/otaku.gif)
 
