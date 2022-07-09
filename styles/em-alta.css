@@ -1,0 +1,109 @@
+.emAlta-info{
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  padding-left: 6rem;
+  padding-right: 1rem;
+}
+
+.emAlta-info h3{
+  color: #989898;
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.2;
+}
+.emAlta-info h2{
+  color: #ffffff;
+  font-family: var(--font-kant);
+  font-size: 3rem;
+  line-height: 1;
+}
+.emAlta-info p{
+  color: #B7B7B7;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  font-family: var(--font-roboto);
+}
+
+.swiper2{
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.em-alta{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12.5rem;
+}
+
+.imagem{
+  width: 100%;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after{
+  color: red;
+}
+
+.swiper2 .swiper-button-prev,
+.swiper2 .swiper-button-next{
+  top: 20px;
+  height: 100%;
+  width: 6%;
+}
+
+.swiper2 .swiper-button-prev{
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9));
+  left: -1px;
+}
+.swiper2 .swiper-button-next{
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9));
+  right: -1px;
+}
+
+.swiper2 .swiper-button-prev::after,
+.swiper2 .swiper-button-next::after {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: bold;
+  transition: transform .1s ease-out;
+}
+
+@media (max-width: 800px){
+  .swiper2 .swiper-button-prev::after,
+  .swiper2 .swiper-button-next::after{
+  font-size: 4vw;
+}
+  .emAlta-info h2{
+  font-size: 2rem;
+}
+  .emAlta-info p{
+  font-size: 0.775rem;
+}
+.emAlta-info{
+  padding-left: 2rem;
+  width: 200px;
+}
+
+}
+@media (min-width: 800px){
+  .swiper2 .swiper-button-prev::after,
+  .swiper2 .swiper-button-next::after{
+  display: none;
+  font-size: 2.4vw;
+}
+
+  .swiper2 .swiper-button-prev:hover::after,
+  .swiper2 .swiper-button-next:hover::after{
+    transform: scale(1.25);
+  }
+
+  .swiper2:hover .swiper-button-prev::after,
+  .swiper2:hover .swiper-button-next::after{
+    display: block;
+  } 
+}
